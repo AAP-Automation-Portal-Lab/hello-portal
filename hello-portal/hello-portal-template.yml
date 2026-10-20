@@ -65,7 +65,7 @@ spec:
           title: Collections
           type: array
           description: Add collections to be included in your execution environment definition file (optional).
-          default: [{"name":"cisco.cvd_compute","source":"Private Automation Hub / validated"},{"name":"ansible.mcp_builder","source":"Private Automation Hub / validated"}]
+          default: [{"name":"cisco.cvd_compute","source":"Private Automation Hub / validated"},{"name":"ansible.mcp_builder","source":"Private Automation Hub / validated"},{"name":"ansible.mysql","source":"Private Automation Hub / community"}]
           ui:field: CollectionsPicker
         advancedConfiguration:
           title: Advanced Configuration

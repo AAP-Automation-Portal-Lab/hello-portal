@@ -10,6 +10,7 @@ EE for cloud team infrastructure.
 |---|---|---|
 | cisco.cvd_compute | - | Private Automation Hub (validated) |
 | ansible.mcp_builder | - | Private Automation Hub (validated) |
+| ansible.mysql | - | Private Automation Hub (community) |
 
 
 
