@@ -13,6 +13,8 @@ dependencies:
     collections:
       - name: cisco.cvd_compute
         source: private_hub_validated
+      - name: ansible.mcp_builder
+        source: private_hub_validated
 
 additional_build_steps:
   prepend_galaxy:
