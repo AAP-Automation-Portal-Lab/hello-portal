@@ -11,10 +11,10 @@ dependencies:
 
   galaxy:
     collections:
-      - name: cisco.cvd_compute
-        source: private_hub_validated
       - name: ansible.mcp_builder
         source: private_hub_validated
+      - name: ansible.mysql
+        source: private_hub_community
 
 additional_build_steps:
   prepend_galaxy:
