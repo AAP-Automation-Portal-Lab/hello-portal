@@ -5,7 +5,6 @@ metadata:
   description: "EE for cloud team infrastructure.  "
   tags:
     - execution-environment
-    - cloud
   annotations:
     backstage.io/techdocs-ref: dir:.
     backstage.io/managed-by-location: github.com?repo=hello-portal&owner=AAP-Automation-Portal-Lab
