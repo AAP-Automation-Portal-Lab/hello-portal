@@ -6,18 +6,15 @@ EE for cloud team infrastructure.
 
 ### Ansible collections
 
-| Collection | Version | Source |
-|---|---|---|
-| amazon.ai | - | Private Automation Hub (rh-certified) |
-| cloud.azure_ops | - | Private Automation Hub (validated) |
+No additional collections. This EE uses only what the base image provides.
 
 
 
 ## Details
 
-- **Tags:** `execution-environment`, `cloud`
+- **Tags:** `execution-environment`
 
-- **Image registry:** `user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v1.0.0`
+- **Image registry:** `user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v0.0.2`
 
 ## Use this execution environment
 
@@ -28,7 +25,7 @@ Log in to the registry and pull the image:
 
 ```bash
 podman login user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io
-podman pull user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v1.0.0
+podman pull user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v0.0.2
 ```
 
 If the registry uses a self-signed certificate, you may need to append `--tls-verify=false` to each `podman` command.
@@ -36,7 +33,7 @@ If the registry uses a self-signed certificate, you may need to append `--tls-ve
 To use it in Ansible Automation Platform:
 
 1. Go to **Automation Execution** > **Infrastructure** > **Execution Environments**.
-2. Click **Create execution environment** and enter the image URL: `user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v1.0.0`
+2. Click **Create execution environment** and enter the image URL: `user1-aap-user1-aap.apps.cluster-2pv89.dyn.redhatworkshops.io/hello-portal:v0.0.2`
 3. Select this execution environment in your job templates.
 
 ## Build details
