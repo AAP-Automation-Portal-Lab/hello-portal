@@ -9,6 +9,11 @@ dependencies:
   python_interpreter:
     python_path: /usr/bin/python3.12
 
+  galaxy:
+    collections:
+      - name: cisco.cvd_compute
+        source: private_hub_validated
+
 additional_build_steps:
   prepend_galaxy:
     - ARG ANSIBLE_GALAXY_SERVER_PRIVATE_HUB_RH_CERTIFIED_TOKEN

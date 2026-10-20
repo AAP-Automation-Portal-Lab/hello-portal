@@ -6,7 +6,9 @@ EE for cloud team infrastructure.
 
 ### Ansible collections
 
-No additional collections. This EE uses only what the base image provides.
+| Collection | Version | Source |
+|---|---|---|
+| cisco.cvd_compute | - | Private Automation Hub (validated) |
 
 
 
