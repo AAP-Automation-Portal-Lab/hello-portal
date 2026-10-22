@@ -4,7 +4,7 @@ kind: Template
 metadata:
   name: hello-portal
   title: hello-portal
-  description: "EE for cloud team infrastructure.  "
+  description: "hi portal, i'm testing you."
   annotations:
     ansible.io/saved-template: 'true'
   tags: ["execution-environment"]
@@ -65,7 +65,7 @@ spec:
           title: Collections
           type: array
           description: Add collections to be included in your execution environment definition file (optional).
-          default: [{"name":"ansible.mcp_builder","source":"Private Automation Hub / validated"},{"name":"ansible.mysql","source":"Private Automation Hub / community"}]
+          default: [{"name":"ansible.utils","source":"Private Automation Hub / published"}]
           ui:field: CollectionsPicker
         advancedConfiguration:
           title: Advanced Configuration

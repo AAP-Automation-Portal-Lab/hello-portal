@@ -11,10 +11,8 @@ dependencies:
 
   galaxy:
     collections:
-      - name: ansible.mcp_builder
-        source: private_hub_validated
-      - name: ansible.mysql
-        source: private_hub_community
+      - name: ansible.utils
+        source: private_hub_published
 
 additional_build_steps:
   prepend_galaxy:

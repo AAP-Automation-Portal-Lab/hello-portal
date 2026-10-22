@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: hello-portal
-  description: "EE for cloud team infrastructure.  "
+  description: hi portal, i'm testing you.
   tags:
     - execution-environment
   annotations:
